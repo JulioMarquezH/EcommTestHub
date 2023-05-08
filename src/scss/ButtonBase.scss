@@ -1,0 +1,27 @@
+.button-base{
+    all: unset;
+    width: 100%;
+    height: 48px;
+    border-radius: 100px;
+}
+.button-text-base{
+    font-family: 'Neogrotesk Ess'; //arreglar
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+.button-primary{
+    background-color: #EFA693;
+    opacity: 0.9;
+}
+.button-text-primary{
+    color: white
+}
+.button-secondary{
+    background-color: white;
+}
+.button-text-secondary{
+    color: #EFA693;
+}

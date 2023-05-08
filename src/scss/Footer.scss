@@ -1,0 +1,26 @@
+$small: 300px;
+$medium: 750px;
+$big: 1400px;
+
+.footer-box{
+    margin-top: 50px;
+    width: 440px;
+}
+.footer-text{
+    margin: 0;
+    font-family: 'Filson Pro';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    color: #939393;
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    //css code
+    .footer-box{
+        width: 80%;
+    }
+
+}

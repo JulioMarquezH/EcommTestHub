@@ -1,0 +1,32 @@
+$small: 300px;
+$medium: 750px;
+$big: 1400px;
+
+.from-send-emial{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 28px;
+    margin-bottom: 73px;
+}
+.box-input-email{
+    width: 64%;
+}
+.box-button-email{
+    width: 30%;
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    //css code
+    .from-send-emial{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .box-input-email{
+        margin-bottom: 8px;
+    }
+
+}

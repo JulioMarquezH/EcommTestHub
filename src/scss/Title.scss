@@ -1,0 +1,25 @@
+$text-color: #444950;
+$font-size-title-primary:44px;
+$font-size-title-secondary:28px;
+$small: 300px;
+$medium: 750px;
+$big: 1400px;
+
+.notable-text{
+    margin: 0;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: $font-size-title-primary;
+    line-height: 61.6px;
+    color: $text-color;
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    //css code
+    .notable-text{
+        font-size: $font-size-title-secondary;
+        line-height: 128%;
+    }
+
+}
