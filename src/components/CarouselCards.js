@@ -12,7 +12,7 @@ import { incrementByAmountCount } from '../feature/carousel/carouselCount';
 const CarouselCards = () => {
     // useState
     const [products, setProducts ] = useState ([]);
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    const [screenWidth, setScreenWidth] = useState();
     // const [end, setEnd] = useState()
     // recolectando data del redux
     const positionLeft = useSelector((state) => state.productCarouselLeftReducer.value)
@@ -42,7 +42,7 @@ const CarouselCards = () => {
         const handleResize = () => {
           setScreenWidth(window.innerWidth)
         };
-    
+        handleResize()
         window.addEventListener("resize", handleResize);
     
         return () => {
