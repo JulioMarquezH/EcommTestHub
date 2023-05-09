@@ -24,6 +24,9 @@ const ProductCard = ({ product }) => {
             }
           }
         }
+        
+        sum = sum/listPointsReviews.length;
+        
         return sum;
       }
 
